@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web cá nhân giới thiệu bản thân của Lê Duy Khanh - Sinh viên Sư phạm Tin học.">
+    <title>Lê Duy Khanh | Portfolio Bài tập</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">LDK<span>.</span></a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Trang chủ</a>
+                <a href="#about">Thông tin</a>
+                <a href="#skills">Kỹ năng</a>
+                <a href="#projects">Thực hành</a>
+                <a href="#" id="openContactNav">Liên hệ</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        
+        <section class="hero" id="home">
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-content reveal">
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Sẵn sàng hoàn thành bài tập thực hành
+                </div>
+
+                <p class="eyebrow">XIN CHÀO, MÌNH LÀ</p>
+                <h1>Lê Duy <span>Khanh</span></h1>
+
+               <p class="hero-role">
+                    Sinh viên <strong>Sư phạm Tin học</strong> · 
+                        <marquee direction="right" scrollamount="4" style="display:inline-block; width: 280px; vertical-align: middle;">
+                             <sup><b>ĐAM MÊ LẬP TRÌNH VÀ DẠY HỌC LẬP TRÌNH</b></sup>
+                        </marquee>
+                </p>
+
+                <p class="hero-description">
+                    Mình đang theo học tại trường, nghiên cứu chuyên sâu về Cisco Router, quản trị hạ tầng Windows Server (AD DS) 
+                    và phát triển các ứng dụng web. Định hướng trở thành một giảng viên Tin học hiện đại, vững chuyên môn.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Xem bài thực hành <span>↓</span></a>
+                    
+                    <button id="openContactBtn" class="btn btn-outline">Liên hệ với tôi</button>
+                </div>
+
+                <div class="quick-info">
+                    <div>
+                        <strong>24/11</strong>
+                        <span>2005</span>
+                    </div>
+                    <div>
+                        <strong>Thanh Hóa</strong>
+                        <span>Quê quán</span>
+                    </div>
+                    <div>
+                        <strong>C++</strong>
+                         <strong>SQL</strong>
+                        <span>Chuyên môn chính</span>
+                    </div>
+                    <div>
+                        <strong>HDU</strong>
+                        <span>Mục tiêu giảng dạy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="profile-ring">
+                    <div class="profile-card">
+                        <img src="images/avatar.jpg" alt="Lê Duy Khanh - Sư phạm Tin học">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+
+                <div class="floating-card card-top">
+                    <span class="floating-icon">🌐</span>
+                    <div>
+                        <small>Chuyên ngành</small>
+                        <strong>Sư phạm Tin học</strong>
+                    </div>
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <span class="floating-icon">🛡️</span>
+                    <div>
+                        <small>Hệ thống</small>
+                        <strong>Windows Server</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="section" id="about">
+            <div class="section-heading reveal">
+                <p class="section-label">01 — PROFILE</p>
+                <h2>Thông tin <span>cá nhân</span></h2>
+                <p>Tóm tắt lý lịch và định hướng học tập của bản thân.</p>
+            </div>
+
+            <div class="about-grid">
+                <article class="about-card large reveal">
+                    <div class="card-number">01</div>
+                    <h3>Lý lịch sơ lược</h3>
+                    <p>
+                        Họ và tên: <strong>Lê Duy Khanh</strong> | Ngày sinh: <strong>24/11/2005</strong>.
+                        Quê quán tại <strong>Thanh Hóa</strong>. Hiện đang là sinh viên theo học chuyên ngành 
+                        <strong>Sư phạm Tin học</strong> với tinh thần ham học hỏi và cầu tiến.
+                    </p>
+                    <p>
+                        Luôn chú trọng kết hợp giữa kiến thức lý thuyết sư phạm và thực hành kỹ thuật phần cứng, 
+                        mạng máy tính cũng như lập trình ứng dụng.
+                    </p>
+                </article>
+
+                <article class="about-card reveal">
+                    <div class="mini-icon">🎯</div>
+                    <span>ĐỊNH HƯỚNG</span>
+                    <h3>Giáo viên tương lai</h3>
+                    <p>Xây dựng nền tảng vững chắc để trở thành một giáo viên Tin học giỏi chuyên môn, giàu kỹ năng thực tế.</p>
+                </article>
+
+                <article class="about-card reveal">
+                    <div class="mini-icon">⚙️</div>
+                    <span>CÔNG CỤ HỌC TẬP</span>
+                    <h3>Thiết bị sử dụng</h3>
+                    <p>Laptop HP ZBook 15 G3 phục vụ chạy máy ảo, cấu hình mạng và các thiết bị di động hỗ trợ.</p>
+                </article>
+            </div>
+        </section>
+
+        
+        <section class="section skills-section" id="skills">
+            <div class="section-heading reveal">
+                <p class="section-label">02 — SKILLS</p>
+                <h2>Các kỹ năng <span>đạt được</span></h2>
+                <p>Tổng hợp các mảng kiến thức lập trình và sư phạm đã rèn luyện.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card reveal">
+                    <div class="skill-head">
+                        <div class="skill-icon">💻</div>
+                        <div>
+                            <h3>C++</h3>
+                            <span>Lập trình hướng đối tượng</span>
+                        </div>
+                        <strong>85%</strong>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+                </article>
+                <article class="skill-card reveal">
+                    <div class="skill-head">
+                        <div class="skill-icon">☕</div>
+                        <div>
+                            <h3>Java</h3>
+                            <span>Ứng dụng & OOP</span>
+                        </div>
+                        <strong>80%</strong>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="width:80%"></div></div>
+                </article>
+                <article class="skill-card reveal">
+                    <div class="skill-head">
+                        <div class="skill-icon">🗄️</div>
+                        <div>
+                            <h3>SQL</h3>
+                            <span>Cơ sở dữ liệu & Truy vấn</span>
+                        </div>
+                        <strong>85%</strong>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+                </article>
+                <article class="skill-card reveal">
+                    <div class="skill-head">
+                        <div class="skill-icon">📊</div>
+                        <div>
+                            <h3>Kỹ năng tạo bài giảng</h3>
+                            <span>Thiết kế E-learning & Thuyết trình</span>
+                        </div>
+                        <strong>90%</strong>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" style="width:90%"></div></div>
+                </article>
+            </div>
+        </section>
+
+      
+        <section class="section" id="projects">
+            <div class="section-heading reveal">
+                <p class="section-label">03 — PRACTICE</p>
+                <h2>Bài tập & <span>Sản phẩm</span></h2>
+                <p>Các nội dung thực hành đã hoàn thành trong chương trình học.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <span class="project-tag">LAB 01</span>
+                        <span class="project-index">01</span>
+                    </div>
+                    <h3>Thiết lập Domain Controller</h3>
+                    <p>Cấu hình hệ thống Windows Server, thiết lập dịch vụ Active Directory Domain Services và quản lý tài khoản người dùng nội bộ.</p>
+                    <div class="tech-list">
+                        <span>Windows Server</span><span>AD DS</span><span>DNS</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <span class="project-tag">LAB 02</span>
+                        <span class="project-index">02</span>
+                    </div>
+                    <h3>Định tuyến mạng Cisco</h3>
+                    <p>Thực hiện cấu hình kết nối giữa các router, thiết lập định tuyến tĩnh và chia subnet mạng nội bộ trên công cụ giả lập.</p>
+                    <div class="tech-list">
+                        <span>Cisco CLI</span><span>Routing</span><span>Subnet</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <span class="project-tag">WEB PROJECT</span>
+                        <span class="project-index">03</span>
+                    </div>
+                    <h3>Xây dựng Website Portfolio</h3>
+                    <p>Thiết kế trang web cá nhân hoàn chỉnh bằng HTML, CSS và JavaScript phục vụ yêu cầu kiểm tra thực hành môn học.</p>
+                    <div class="tech-list">
+                        <span>HTML5</span><span>CSS3</span><span>JS</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+ 
+    <div class="contact-modal" id="contactModal">
+        <div class="contact-modal-content">
+            <button class="close-modal" id="closeModalBtn">&times;</button>
+            <div class="contact-box">
+                <div class="contact-content">
+                    <p class="section-label">04 — CONTACT</p>
+                    <h2>Thông tin <span>liên hệ</span></h2>
+                    <p>Mọi thắc mắc hoặc góp ý về bài tập xin vui lòng gửi về cho mình qua thông tin bên dưới.</p>
+
+                    <div class="contact-links">
+                        <a href="mailto:leduykhanh@email.com">
+                            <span>✉</span>
+                            <div><small>Email</small><strong>khaduy2411@gmail.com</strong></div>
+                        </a>
+                        <a href="https://www.facebook.com/share/1GJ4LMShGF/?mibextid=wwXIfr" target="_blank">
+                            <span>💬</span>
+                            <div><small>Facebook</small><strong>Duy Khánh</strong></div>
+                        </a>
+                        <a href="https://www.tiktok.com/@dayladuykhanhnha?_r=1&_t=ZS-9A6epMAPsQ5" target="_blank">
+                            <span>🎵</span>
+                            <div><small>TikTok</small><strong>duy khánh.vn</strong></div>
+                        </a>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Họ và tên</label>
+                    <input id="name" type="text" placeholder="Nhập họ và tên" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="" required>
+
+                    <label for="message">Lời nhắn</label>
+                    <textarea id="message" placeholder="Nội dung lời nhắn..." required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Gửi thông tin <span>→</span>
+                    </button>
+
+                    <p id="successMessage"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="footer-inner">
+            <a href="#home" class="logo">LDK<span>.</span><p>Profile</p></a>
+            <p>Profile</p>
+            <p>Lê Duy Khanh</p>
+            <a href="#home" class="back-top">↑</a>
+        </div>
+    </footer>
+
+ 
+    <script>
+        const modal = document.getElementById('contactModal');
+        const openBtn = document.getElementById('openContactBtn');
+        const openNavBtn = document.getElementById('openContactNav');
+        const closeBtn = document.getElementById('closeModalBtn');
+
+        function openModal(e) {
+            e.preventDefault();
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            modal.classList.remove('active');
+        }
+
+        openBtn.addEventListener('click', openModal);
+        openNavBtn.addEventListener('click', openModal);
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
